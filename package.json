@@ -1,0 +1,23 @@
+{
+  "name": "langing_live_streaming",
+  "version": "1.0.0",
+  "description": "landing page",
+  "sourse": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ew1tt058/landing_live_streaming.git"
+  },
+  "author": "Illya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ew1tt058/landing_live_streaming/issues"
+  },
+  "homepage": "https://github.com/ew1tt058/landing_live_streaming#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "sass": "^1.77.6"
+  }
+}
