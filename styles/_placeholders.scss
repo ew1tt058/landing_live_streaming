@@ -2,15 +2,22 @@
 
 %hover-black {
     &:hover {
-        transition: 0.6s ease;
+        transition: 0.2s ease;
         cursor: pointer;
         color: v.$color_black ;
+    }
+}
+%hover-light {
+    &:hover {
+        transition: 0.2s ease;
+        cursor: pointer;
+        color: v.$color_white ;
     }
 }
 
 %hover-black-icon {
     &:hover {
-        transition: 0.6s ease;
+        transition: 0.1s ease;
         cursor: pointer;
         stroke: v.$color_black ;
     }
