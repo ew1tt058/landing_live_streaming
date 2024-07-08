@@ -1,14 +1,14 @@
 @use "variables" as v;
-@use "sass:color";
 @use "mixins" as m;
 @use "placeholders";
+@use "sass:color";
 
 .header {
     // box-shadow: inset 0 0 2em 2px v.$color_white;
     width: 100%;
     height: 50px;
-    // background-color: color.adjust(v.$color_white, $alpha: -0.98);
-    background-color: v.$color_blue;
+    background-color: color.adjust(v.$color_white, $alpha: -0.85);
+    // background-color: v.$color_blue;
 
     border: {
         bottom: {
