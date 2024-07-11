@@ -5,8 +5,7 @@
   "sourse": "index.html",
   "scripts": {
     "sass:watch": "sass --style=expanded --watch styles:dist",
-    "parcel:watch": "parcel serve --dist-dir public",
-    "parcel:build": "parcel build --dist-dir build --public-url ./"
+    "parcel:watch": "parcel serve --dist-dir public"
   },
   "repository": {
     "type": "git",
