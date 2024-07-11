@@ -23,7 +23,7 @@
 
                 <div class="nav__links">
                     <ul class="nav__links-list list" aria-label="header nav links">
-                        <li class="list__item" >
+                        <li class="list__item">
                             <a href="#" class="list__item-link">about</a>
                         </li>
                         <li class="list__item">
@@ -47,6 +47,52 @@
             </nav>
         </div>
     </header>
+
+    <div class="mobile-navigation">
+        <label for="checkboxID" class="mobile-navigation__burger">
+            <svg class="mobile-navigation__burger-icon" aria-label="burger icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+        </label>
+
+        <input id="checkboxID" type="checkbox" class="mobile-navigation__toggler">
+
+        <nav class="mobile-navigatin__menu nav">
+            <ul class="nav__list">
+                <li class="nav__list-item">
+                    <a href="#work" class="nav__list-item-link">How we work</a>
+                </li>
+
+                <li class="nav__list-item">
+                    <a href="#about" class="nav__list-item-link">About us</a>
+                </li>
+
+                <li class="nav__list-item">
+                    <a href="#experience" class="nav__list-item-link">Experience</a>
+                </li>
+
+                <li class="nav__list-item">
+                    <a href="#testimonials" class="nav__list-item-link">Testimonials</a>
+                </li>
+
+                <li class="nav__list-item">
+                    <a href="#formSection" class="nav__list-item-link">Form</a>
+                </li>
+
+                <li class="nav__list-item">
+                    <a href="#contacts" class="nav__list-item-link">Contacts</a>
+                </li>
+            </ul>
+
+            <label for="checkboxID" class="nav__close">
+                <svg class="nav__close-icon" aria-label="close icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+
+        </nav>
+
+    </div>
+
     <main aria-label="main content">
         <section class="hero-section" aria-label="hero section">
             <div class="container">
@@ -72,13 +118,13 @@
                 </div>
             </div>
         </section>
-        <section class="work-section">
+        <section class="work-section" id="work">
             <div class="container">
                 <div class="work">
                     <h2 class="work__title">How we work</h2>
 
                     <div class="work__cards-wrapper">
-                        <figure class="info-card card--analysis  aria-label="card analysis">
+                        <figure class="info-card card--analysis  aria-label=" card analysis">
                             <svg class="info-card__icon icon--bulb" aria-label="bulb img">
                                 <use href="assets/sprites.svg#bulb-icon"></use>
                                 <h3 class="info-card__title">Analysis</h3>
@@ -163,6 +209,7 @@
                 </div>
             </div>
         </section>
+
         <section class="experience-section" aria-label="experience section" id="experience">
             <div class="container">
                 <div class="experience">
@@ -220,7 +267,8 @@
 
                             <blockquote class="wave-card__quote" cite="https://happyclient.com">
                                 <p>
-                                    Отличный сайт! Live Streaming Cloud Flex удивил удобной навигацией, современным дизайном и стабильной работой. 
+                                    Отличный сайт! Live Streaming Cloud Flex удивил удобной навигацией, современным
+                                    дизайном и стабильной работой.
                                     Всё, что нужно для качественного стриминга, всегда под рукой. Очень доволен!
                                 </p>
                             </blockquote>
@@ -252,14 +300,18 @@
         </section>
 
 
-        <section class="form-section"aria-label="form section">
+        <section class="form-section" aria-label="form section" id="formSection">
             <div class="container">
                 <div class="form-section__wrapper">
                     <form action="mailto:streaming_compony@gmail.com" class="form" aria-labelledby="form-title">
-                        <label for="input-name"id="form-title" class="form__title" >Ready to get started? Drop us a line!</label>
-                        <input id="input-name" type="text" placeholder="Name" class="form__name " name="first name" aria-required="true" required autocomplete="off">
-                        <input id="input-email" type="email" placeholder="Email" class="form__email " name="email" aria-required="true" required required autocomplete="off">
-                        <input id="input-text" type="text" placeholder="What we can do for you?" class="form__text "name="question"  aria-required="true" required required autocomplete="off">
+                        <label for="input-name" id="form-title" class="form__title">Ready to get started? Drop us a
+                            line!</label>
+                        <input id="input-name" type="text" placeholder="Name" class="form__name " name="first name"
+                            aria-required="true" required autocomplete="off">
+                        <input id="input-email" type="email" placeholder="Email" class="form__email " name="email"
+                            aria-required="true" required required autocomplete="off">
+                        <input id="input-text" type="text" placeholder="What we can do for you?" class="form__text "
+                            name="question" aria-required="true" required required autocomplete="off">
 
                         <button type="submit" class="form__submit-btn">Send</button>
                     </form>
@@ -306,7 +358,7 @@
                 </address>
             </div>
         </div>
-        </footer>
+    </footer>
     </footer>
 </body>
 
