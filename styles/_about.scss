@@ -129,6 +129,7 @@
 
                 &::before {
                     @include m.position(absolute, -1, -1, top, left, 35px, -170px);
+                    background: url(/assets/img/phone_alpha.webp) -135px 40px /125% no-repeat;
                 }
             }
         }
